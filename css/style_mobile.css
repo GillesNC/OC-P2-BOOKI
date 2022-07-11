@@ -92,6 +92,8 @@
 
     aside {
         width: auto;
+        display: flex;
+        flex-direction: column;
         height: 600px;
         padding: 5%;
         margin-bottom: 10%;

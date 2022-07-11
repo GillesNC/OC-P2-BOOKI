@@ -337,7 +337,7 @@ h1 {
 .card_hosting article {
     display: flex;
     flex-direction: column;
-    border: 5px solid white;
+    padding: 5px;
     border-radius: 20px;
     background-color: white;
     width: 30%;
@@ -499,7 +499,7 @@ aside {
 
 #card_famous article {
     display: flex;
-    border: 5px solid white;
+    padding: 5px;
     border-radius: 20px;
     background-color: white;
     height: 30%;
