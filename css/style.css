@@ -589,7 +589,6 @@ aside {
 .activity article {
     display: flex;
     flex-direction: column;
-    border: 5px solid white;
     border-radius: 20px;
     background-color: white;
     height: 100%;
