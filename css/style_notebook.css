@@ -1,0 +1,41 @@
+@media screen and (min-width: 992px) and (max-width:1325px) {
+    
+    /* Section Hébergement à Marseille */
+
+    .hosting_marseille {
+        width: 55%;
+        height: 1000px;
+        padding: 30px;
+    }
+
+    .card_hosting {
+        width: auto;
+    }
+
+    .card_hosting article {
+        width: 45%;
+        height: 25%;
+    }
+
+    /* Section Les plus populaires */
+
+    aside {
+        width: 25%;
+        height: 1000px;
+        padding: 30px;
+    }
+
+    #card_famous {
+        display: flex;
+        justify-content: flex-start;
+        height: 95%;
+    }
+
+    #card_famous article {
+        width: auto;
+        height: 20%;
+        margin-bottom: 50px;
+    }
+
+
+}

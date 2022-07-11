@@ -1,0 +1,158 @@
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+/* Nav bar */
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #f2f2f2;
+   }
+
+    nav a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    main {
+        margin: 3%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .search_hosting p {
+        text-align: center;
+    }
+
+/* Section Search & Filter */
+
+    .search {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icon_localisation {
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .filter {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .button_eco, .button_fami, .button_rom, .button_animaux {
+        margin: 5px;
+    }
+    
+/* Hébergement à marseille & les plus populaire*/
+
+    #hosting {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    
+    /* Les plus populaires */
+
+    aside {
+        width: auto;
+        height: 600px;
+        padding: 5%;
+        margin-bottom: 10%;
+    }
+
+    #card_famous {
+        width: 100%;
+        height: 90%;
+    }
+
+    /* Hébergement à marseille */
+
+    .hosting_marseille {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: 1000px;
+        margin: 0; 
+    }
+    
+
+    .card_hosting article {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 30%;
+    }
+
+    article p {
+        margin-left: 10px;
+    }
+
+    /* Activités à Marseille */
+
+    #activity_marseille {
+        width: auto;
+        height: 1000px;
+    }
+
+    .activity {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: 45%;
+    }
+
+    .activity_1 {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .activity_2 {
+        width: 45%;
+    }
+
+    .activity_3 {
+        width: 50%;
+    }
+
+    .activity_4 {
+        width: 45%;
+    }
+
+}
