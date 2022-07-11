@@ -92,8 +92,6 @@
 
     aside {
         width: auto;
-        display: flex;
-        flex-direction: column;
         height: 600px;
         padding: 5%;
         margin-bottom: 10%;
@@ -107,6 +105,7 @@
     /* Hébergement à marseille */
 
     .hosting_marseille {
+        background-color: white;
         display: flex;
         flex-direction: column;
         width: auto;
